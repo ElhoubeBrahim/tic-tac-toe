@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'QuicksandRegular';
+    src: url('../fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('../fonts/Quicksand-Bold.ttf');
+}
+
+* {
+    -fx-primary-color: #25a9e0;
+    -fx-light-primary-color: #e0f5ff;
+    -fx-text-color: #444;
+}
+
+.root {
+    -fx-font-size: 16;
+}
+
+.root * {
+    -fx-font-family: 'Quicksand';
+    -fx-text-fill: -fx-text-color;
+}
+
+.symbol {
+    -fx-font-size: 48;
+    -fx-font-weight: bold;
+}
+
+.active-player {
+    -fx-border-width: 5;
+    -fx-border-color: -fx-primary-color;
+    -fx-border-radius: 5;
+    -fx-background-color: -fx-light-primary-color;
+}
+
+#winner-announcement-label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+#game-board .grid-cell {
+    -fx-font-size: 52;
+    -fx-font-weight: bold;
+    -fx-text-overrun: clip;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-alignment: center;
+}
+
+#restart-button {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-pref-width: 250;
+    -fx-padding: 15;
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
