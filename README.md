@@ -1,4 +1,4 @@
-# Multiplier Tic Tac Toe
+# Multiplayer Tic Tac Toe
 
 This project is a multiplayer Tic Tac Toe game implemented in Java using JavaFX for the graphical user interface and Java Sockets for networking functionality:
 
