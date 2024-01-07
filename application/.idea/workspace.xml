@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad2f618-70eb-4202-8c55-8f2af31f2c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tictactoe/AppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tictactoe/GameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tictactoe/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/tictactoe/fonts/Quicksand-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/tictactoe/fonts/Quicksand-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/tictactoe/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/tictactoe/styles/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/tictactoe/views/game.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/game/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/game/PlayerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tictactoe/game/PlayerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/PlayerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/PlayerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +87,9 @@
       <workItem from="1703438920114" duration="30000" />
       <workItem from="1703439043957" duration="2010000" />
       <workItem from="1703490245691" duration="17738000" />
+      <workItem from="1704633759227" duration="1572000" />
+      <workItem from="1704640373834" duration="1004000" />
+      <workItem from="1704641883458" duration="1337000" />
     </task>
     <servers />
   </component>

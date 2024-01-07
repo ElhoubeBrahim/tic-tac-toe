@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 enum Commands {
-    GAME_STARTED, SET_PLAYER, PLAY, WINNER, DRAW, OPPONENT_DISCONNECTED
+    GAME_STARTED, SET_PLAYER, PLAY, WINNER, DRAW, OPPONENT_DISCONNECTED, RESTART_GAME
 }
 
 public class PlayerThread extends Thread {
@@ -31,6 +31,7 @@ public class PlayerThread extends Thread {
         commands.put(Commands.WINNER.toString(), new ShowWinnerCommand());
         commands.put(Commands.DRAW.toString(), new ShowDrawCommand());
         commands.put(Commands.OPPONENT_DISCONNECTED.toString(), new OpponentDisconnectedCommand());
+        commands.put(Commands.RESTART_GAME.toString(), new RestartGameCommand());
     }
 
     public void run() {

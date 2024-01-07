@@ -4,13 +4,15 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.*;
 import java.util.Scanner;
+import java.util.Timer;
+import java.util.TimerTask;
 
 enum Commands {
     PLAY, QUIT
 }
 
 enum Responses {
-    GAME_STARTED, SET_PLAYER, WINNER, DRAW, INVALID_COMMAND, OPPONENT_DISCONNECTED
+    GAME_STARTED, SET_PLAYER, WINNER, DRAW, INVALID_COMMAND, OPPONENT_DISCONNECTED, RESTART_GAME
 }
 
 public class PlayerThread extends Thread {
@@ -87,7 +89,15 @@ public class PlayerThread extends Thread {
                                 ? Responses.DRAW.toString()
                                 : Responses.WINNER + ":" + gameController.getWinner()
                         );
-                        return;
+
+                        // Restart game after 5 seconds
+                        (new Timer()).schedule(new TimerTask() {
+                            @Override
+                            public void run() {
+                                gameController.restart();
+                                sendToAll(Responses.RESTART_GAME.toString());
+                            }
+                        }, 5 * 1000);
                     }
                 }
             }

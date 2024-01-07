@@ -46,6 +46,10 @@ public class GameController {
         this.player = player;
     }
 
+    public void setCurrentPlayer(Player player) {
+        this.currentPlayer = player;
+    }
+
     public String getCurrentSymbol() {
         return currentPlayer == Player.X ? "X" : "O";
     }

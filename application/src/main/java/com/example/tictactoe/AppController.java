@@ -2,6 +2,7 @@ package com.example.tictactoe;
 
 import com.example.tictactoe.game.GameController;
 import com.example.tictactoe.game.Player;
+import com.example.tictactoe.game.PlayerThread;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
@@ -55,6 +56,27 @@ public class AppController {
         // Toggle player
         togglePlayerUI();
         game.togglePlayer();
+    }
+
+    public void restartGame() {
+        // Reset player
+        if (game.getCurrentPlayer() == Player.O) {
+            togglePlayerUI();
+            game.setCurrentPlayer(Player.X);
+        }
+
+        // Reset grid
+        for (Node child : boardGrid.getChildren()) {
+            Integer column = GridPane.getColumnIndex(child);
+            Integer row = GridPane.getRowIndex(child);
+
+            if (column != null && row != null) {
+                ((Label) child).setText("");
+            }
+        }
+
+        // Show message
+        showMessage("Game started !");
     }
 
     public void togglePlayerUI() {

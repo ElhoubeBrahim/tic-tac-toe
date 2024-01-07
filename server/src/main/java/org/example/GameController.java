@@ -108,4 +108,11 @@ public class GameController {
 
         togglePlayer();
     }
+
+    public void restart() {
+        filledCells = 0;
+        currentPlayer = Player.X;
+        board = new Player[3][3];
+        winner = null;
+    }
 }
