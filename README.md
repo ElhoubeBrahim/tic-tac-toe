@@ -17,11 +17,15 @@ This project is a multiplayer Tic Tac Toe game implemented in Java using JavaFX 
 
 ## Screenshots
 
-<img src="./images/screenshot.gif" width="70%" align="center">
+<p align="center">
+  <img src="./images/screenshot.gif" width="70%">
+</p>
 
 ## Built with
 
-<img src="./images/architecture.png" width="100%">
+<p align="center">
+  <img src="./images/architecture.png" width="100%">
+</p>
 
 The client is a JavaFX application that communicates with the server over a TCP connection. The server is a Java application that handles communication between the clients and the game logic.
 
